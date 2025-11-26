@@ -29,6 +29,13 @@ Follow these steps to build and run the SFTP server:
     cd sftp-server
     ```
 
+1.1 Set Java 17
+```bash
+$env:JAVA_HOME = "C:\Program` Files\Java\jdk-17.0.2"
+$env:Path = "$env:JAVA_HOME\bin;$env:Path"
+
+```
+
 2.  **Build the project:**
     Use Maven to compile the project and create an executable JAR file.
     ```bash
